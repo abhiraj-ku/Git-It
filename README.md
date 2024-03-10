@@ -31,6 +31,8 @@ To use this Git implementation, follow the steps below:
 
 - `cat-file -p <object-hash>`: Displays the contents of a Git object identified by its hash.
 
+- `hash-object -w <file_name `: Create a blob object and also write the content in the file.
+
 ## Requirements
 
 - Node.js (version >= 10.0.0)
