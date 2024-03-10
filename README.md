@@ -18,6 +18,9 @@ To use this Git implementation, follow the steps below:
 
    # Display the contents of a Git object
    node your_script.js cat-file -p <object-hash>
+
+   # Create a blob object
+   node your_script.js hash-object -w <file_name>
    ```
 
    Replace `<object-hash>` with the hash of the Git object you want to inspect.
